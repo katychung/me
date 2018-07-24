@@ -168,6 +168,12 @@ nav{
     background-size: cover;
 }
 
+.ppt-header{
+    height: 20rem;
+    background: #222 url("../images/ppt.jpg") no-repeat top;
+    background-size: cover;
+}
+
 .homepage-header{
     height: 20rem;
     background: #222 url("../about8b.jpg") no-repeat center;
