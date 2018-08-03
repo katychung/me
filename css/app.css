@@ -1,9 +1,11 @@
 body{
-  background: #f2f2f2;font-family: 'Source Sans Pro', sans-serif;
+  background: #f2f2f2;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #333;
 }
 
-h1, h2, h3, h4, h5{font-family: 'Source Sans Pro', sans-serif;
+h1, h2, h3, h4, h5{
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
 }
 
@@ -97,7 +99,7 @@ nav{
 
 #case-study-list{
   background: #eee;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .case-study-card .cell{
@@ -117,12 +119,15 @@ nav{
   flex-shrink: 0;
   overflow: hidden;
   position: relative;
+  height: 300px;
 }
 
 .case-description{
   background-color: white;
-  padding: 40px;
+  padding: 30px;
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
 }
 
 /*********************** Project Pages ***********************/
