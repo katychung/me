@@ -169,18 +169,18 @@ nav{
 
 .character-creator-header{
     height: 20rem;
-    background: #222 url("../cc.jpg") no-repeat top;
+    background: #222 url("../img/cc.jpg") no-repeat top;
     background-size: cover;
 }
 
 .ppt-header{
     height: 20rem;
-    background: #222 url("../images/ppt.jpg") no-repeat top;
+    background: #222 url("../img/ppt.jpg") no-repeat top;
     background-size: cover;
 }
 
 .homepage-header{
     height: 20rem;
-    background: #222 url("../about8b.jpg") no-repeat center;
+    background: #222 url("../img/about8b.jpg") no-repeat center;
     background-size: cover;
 }
