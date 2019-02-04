@@ -31,7 +31,7 @@ a:link, a:active, a:visited{
 }
 
 a:hover{
-	color: #FF1A01;
+	color: #666;
 }
 
 ul{
@@ -60,7 +60,7 @@ ul{
 }
 
 .nav-alt a:hover{
-	color: #000;
+	color: #666;
 }
 
 #about{
