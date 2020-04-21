@@ -23,6 +23,59 @@ h3{
 h4{
 	font-size:1em;
 }
+.wrapper{
+    position: relative;
+    z-index: 15;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw 7vw;
+}
+
+.section-title{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.header{
+  padding: 20px 0;
+}
+
+.header a:link, a:active, a:visited{
+  color: #000;
+  font-style: normal;
+  border-bottom: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-weight: 700;*/
+
+}
+
+.header a:hover{
+  color: #000;
+}
+
+
+.logo {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.logo::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.logo:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
 
 a:link, a:active, a:visited{
 	color: black;
@@ -80,4 +133,62 @@ ul{
 	color: #999;
 }
 
+
+/*********************** Project Pages ***********************/
+
+
+
+
+.project-desc{
+  position: relative;
+  z-index: 15;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1vw 0vw;
+  max-width: 800px;
+}
+
+.project-intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /* background: url("../bg.svg") repeat center; */
+}
+
+.nd{
+  font-style: italic;
+  color: #888;
+  padding-top: 2vw;
+}
+
+/*********************** Custom ***********************/
+
+.character-creator-header{
+    height: 20rem;
+    background: #222 url("../img/cc.jpg") no-repeat top;
+    background-size: cover;
+}
+
+.ppt-header{
+    height: 20rem;
+    background: #222 url("../img/ppt.jpg") no-repeat top;
+    background-size: cover;
+}
+
+.homepage-header{
+/*    height: 20rem;
+    background: #222 url("../img/about8b.jpg") no-repeat center;
+    background-size: cover;*/
+}
 

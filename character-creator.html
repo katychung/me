@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123010021-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-123010021-1');
+		</script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katy Chung / User Experience Designer / Tokyo</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Source+Sans+Pro|Francois+One|Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+  <nav class="wrapper header">
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <a class="logo" href="index.html">< katychung.info</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrapper character-creator-header"></div>
+
+  <div class="wrapper project-intro" style="background: #000;color:#fff;">
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 medium-12 large-12 cell project-desc">
+      <h1>Character Creator</h1>
+      <p>In December 2017, GoAnimate launched an alpha of their long awaited apps, the Video Maker and Character Creator.
+        It marked a significant milestone for the business &mdash; rebuilding the platforms from the ground up and transitioning from an outdated Flash app to HTML5.</p>
+      <p class="nd">To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study.
+        The information in this case study is my own and does not necessarily reflect the views of GoAnimate / Vyond.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper content-wrapper">
+    <div class="grid-x grid-padding-x">
+      <div class="small-3 medium-3 large-3 cell"></div>
+      <div class="small-6 medium-6 large-6 cell">
+        <img src="img/cc2.png">
+      </div>
+      <div class="small-3 medium-3 large-3 cell"></div>
+    </div>
+  </div>
+
+  <div class="project-desc">
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 medium-12 large-12 cell">
+        <h2 class="section-title">Overview</h2>
+        <p>The Character Creator lets users create customized characters, similar to those found in the gaming world. Once a character is created, it is taken into the Video Maker app where the user can "magically" animate the character for their video; making the character dance, run, talk (lip-syncing via text-to-speech) and so on.</p>
+        <p>During the alpha phase, we received substantial customer feedback on the app &mdash; enough to make it a priority for the beta launch that was set for May 2018. It was January so time was running out.</p>
+
+        <h2 class="section-title">Process</h2>
+        <p>We were confident that the feature was desirable by customers as well as being aligned with product goals. Working within a small team of designers, engineers, animators, we proceeded with ideation, followed by prototyping and presented to stakeholders what the end result could look like. In-between all this, a lot of technicalities had to be considered including the user journey, design details (which design patterns and components could be used), scalability, technical feasibility, internal requirements etc.</p>
+
+        <h2 class="section-title">Problems</h2>
+        <p>The key problems identified:</p>
+        <ul>
+          <li>"I don't want all my characters to be the same height -- it's unrealistic."</li>
+          <li>"Where can I find the character I want to edit / copy?"</li>
+          <li>"Why is the Fireman's outfit purple?"</li>
+          <li>"I changed the hair color to match my own but it keeps resetting every time I select a differents hair style!"</li>
+        </ul>
+        <h2 class="section-title">Role</h2>
+        <p>Collaborating in a small team &mdash; we enhanced the Character Creator over a span of 4-5 months.
+           I led the initiative to improve the user experience of the Character Creator and the integration with the Video Maker.</p>
+        <h2 class="section-title">Goals</h2>
+        <ul>
+          <li>Enable character diversity</li>
+          <li>Streamline core interactions moving between Character Creator and Video Maker</li>
+          <li>Ensure design consistency</li>
+          <li>Ensure scalability and reduce internal dependencies</li>
+          <li>Smooth content delivery process</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper content-wrapper">
+    <iframe src="https://player.vimeo.com/video/268563979?color=ffffff&title=0&byline=0&portrait=0" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+
+  <div class="project-desc">
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <h2 class="section-title">Height Change</h2>
+        <p>From empirical observation and user feedback, we saw time and time again that users would create custom characters of people they know including: themselves, friends, family, colleagues.</p>
+        <p>In the past, characters in the app where always of a fixed height. We would see users create a character line-up consisting of their colleagues but the height of each person would be the same. It was very disappointing.</p>
+        <p>Today we are able to support characters with different heights and it is a small step to providing more diversity.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper content-wrapper">
+    <iframe src="https://player.vimeo.com/video/269780507?title=0&byline=0&portrait=0" width="640" height="409" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+
+  <div class="project-desc">
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <h2 class="section-title">Color</h2>
+        <p>The user can change color of the character's clothes, shoes, hair, skin etc. For skin and hair color, we would remember the user's color choice so that they can try different hair styles more efficiently. </p>
+        <p>For clothes however, we would revert back to the default color of the outfit. Why have two different behaviours? One key reason was that we had many industry outfits such as police, doctors, firemen etc where the color and the outfit have a relationship.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="wrapper content-wrapper">
+    <iframe src="https://player.vimeo.com/video/269810082?title=0&byline=0&portrait=0" width="640" height="408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+
+    <div class="project-desc">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h2 class="section-title">Impact</h2>
+          <p>The beta launch was successful and early feedback from existing customers suggests that they welcome the new features and changes that will enhance the quality of their work and workflow! Most importantly, the user is able to produce a diverse range of characters.</p>
+          <h2 class="section-title">Reflection</h2>
+          <p>I am proud of the team I worked with -- their knowledge, commitment and enthusiam. I learnt a lot from this project including:</p>
+          <ul>
+		      <li>having the right mix of team members and skillsets is really really important</li>
+		      <li>setting expectations across the company about the time required to deliver excellence; normally it takes longer than the time given but this is OK if we are all on the same page about what is being delivered</li>
+	      </ul>
+        <p class="footer">Built on Foundation framework + Sublime Text Editor, hosted on Github &copy; Last updated Apr 2020</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
